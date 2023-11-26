@@ -1,0 +1,33 @@
+{
+    "name": "auth-with-jwt",
+    "description": "Authentication and Authorization using Json web token",
+    "main": "server.js",
+    "scripts": {
+        "lint": "eslint --ext .js,.",
+        "format": "prettier --write '*.{js,jsx}'",
+        "clean": "npm run lint && npm run format",
+        "start": "node --watch server.js"
+    },
+    "keywords": [
+        "jwt",
+        "authentication",
+        "authorization",
+        "security",
+        "token",
+        "auth",
+        "identity",
+        "access-control",
+        "jsonwebtoken",
+        "user-management"
+    ],
+    "author": "MUHAMMED YAZEEN AN",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+        "eslint": "^8.54.0",
+        "eslint-config-google": "^0.14.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-plugin-prettier": "^5.0.1",
+        "prettier": "^3.1.0"
+    }
+}
