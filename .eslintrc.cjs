@@ -21,6 +21,7 @@ module.exports = {
     },
     plugins: ['prettier'],
     rules: {
+        'new-cap': 'off',
         'prettier/prettier': [
             'error',
             {
