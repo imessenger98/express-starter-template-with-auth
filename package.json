@@ -6,7 +6,7 @@
         "lint": "eslint --ext .js,.jsx,.jsx",
         "format": "prettier --write '**/*.{js,jsx}'",
         "clean": "npm run lint && npm run format",
-        "start": "node --watch --env-file /env/.local.env server.js"
+        "start": "node --env-file /env/.local.env server.js"
     },
     "keywords": [
         "jwt",
@@ -33,6 +33,7 @@
     "dependencies": {
         "express": "^4.18.2",
         "http-status-codes": "^2.3.0",
-        "jsonwebtoken": "^9.0.2"
+        "jsonwebtoken": "^9.0.2",
+        "winston": "^3.11.0"
     }
 }
